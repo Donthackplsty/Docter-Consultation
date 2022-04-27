@@ -7,6 +7,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+            h1 {
+              text-align: center;
+            }
+            form {
+              text-align: center;
+            }
+            #myTable{
+           font-family: 'helvetica neue',helvetica,arial,'lucida grande',sans-serif;
+           border-collapse: collapse;
+        }
+        #myTable td{
+           border: solid 1px #C9C9C9;
+           padding: 10px;
+           font-size: 12px;
+           text-align: center;
+        }
+        #myTable tr{
+           background-color: #EBEBEB;
+           color: #000000;
+        }
+        #myTable tr:hover{
+           background-color: #FFFFFF;
+           color: #000000;
+        }
+        #myTable th{
+           border: solid 1px #BFBFBF;
+           padding: 10px;
+           color: #000000;
+           background-color: #D4D4D4;
+           text-align: center;
+           font-size: 12px;
+        }
+          </style>
     </head>
 
     <body style="background-image: url('https://i.pinimg.com/736x/38/74/d4/3874d431a4bb5bce62526f4fca36800d.jpg');">
@@ -30,6 +66,64 @@
         </form>
 
         <h1 style="text-align: center;font-family: 'Bebas Neue', cursive;background-color: #4287f5;"> Book An Appointment </h1>
+
+        <table id="myTable" width="100%">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Phone No</th>
+                <th scope="col">Department</th>
+                <th scope="col">Timing</th>
+                <th scope="col">Charges</th>
+              </tr>
+            </thead>
+      
+            <tbody>
+              <tr>
+                <td>Dr Hussain</td>
+                <td>03986754983</td>
+                <td>Cardiology</td>
+                <td>11 am - 8 pm</td>
+                <td>3000</td>
+              </tr>
+      
+              <tr>
+                <td>Dr Aun</td>
+                <td>036798456783</td>
+                <td>Physician</td>
+                <td>1 pm - 11 pm</td>
+                <td>3000</td>
+              </tr>
+      
+              <tr>
+                <td>Dr Mahnoor</td>
+                <td>033678954723</td>
+                <td>Dermatologist</td>
+                <td>3 pm - 12 pm</td>
+                <td>3000</td>
+              </tr>
+      
+              <tr>
+                <td>Dr Hoorain</td>
+                <td>033789054673</td>
+                <td>Pediatrician</td>
+                <td>6 pm - 1 am</td>
+                <td>2500</td>
+              </tr>
+      
+              <tr>
+                <td>Dr Rumsha</td>
+                <td>034578950493</td>
+                <td>Psychologist</td>
+                <td>4 pm - 12 am</td>
+                <td>3000</td>
+              </tr>
+            </tbody>
+          </table>
+            <br> </br> 
+
+        <p style="font-family: 'Titillium Web', sans-serif;background-color: darkseagreen;"> Press the button to make an appointment, it will be booked according to your information </p>
+        <button style="font-family: 'Titillium Web', sans-serif;"> Book Now!</button>
 
     </body>
 </html>
