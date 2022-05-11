@@ -21,7 +21,7 @@
            border-collapse: collapse;
         }
         #myTable td{
-           border: solid 1px #C9C9C9;
+           border: solid 1px #0000FF;
            padding: 10px;
            font-size: 12px;
            text-align: center;
@@ -31,16 +31,31 @@
            color: #000000;
         }
         #myTable tr:hover{
-           background-color: #FFFFFF;
+           background-color: #ADD8E6
+;
            color: #000000;
         }
         #myTable th{
            border: solid 1px #BFBFBF;
            padding: 10px;
            color: #000000;
-           background-color: #D4D4D4;
+           background-color: #ADD8E6
+;
            text-align: center;
            font-size: 12px;
+        }
+
+        .myButton {
+          background-color: green;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
         }
           </style>
     </head>
@@ -62,6 +77,7 @@
                 <input type="text" id="illness" name="illness"><br>
                 <label for="setTime">Preferred Time </></label><br>
                 <input type="time" id="time" name="Preffered time"><br>
+
                 </strong>
         </form>
 
@@ -122,8 +138,10 @@
           </table>
             <br> </br> 
 
-        <p style="font-family: 'Titillium Web', sans-serif;background-color: darkseagreen;"> Press the button to make an appointment, it will be booked according to your information </p>
-        <button style="font-family: 'Titillium Web', sans-serif;"> Book Now!</button>
+        <p style="font-family: 'Titillium Web', sans-serif;background-color: lightblue;"> Press the button to make an appointment, it will be booked according to your information </p>
+        <div class="myButton">
+          <input type="button" class="button" value="Submit!">
+        </div>
 
     </body>
 </html>
